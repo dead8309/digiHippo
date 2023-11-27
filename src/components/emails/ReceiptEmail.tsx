@@ -35,7 +35,7 @@ export const ReceiptEmail = ({
   products,
 }: ReceiptEmailProps) => {
   const total =
-    products.reduce((acc, curr) => acc + curr.price, 0) + 1
+    products.reduce((acc, curr) => acc + curr.price, 0) + 80
 
   return (
     <Html>
