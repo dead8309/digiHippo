@@ -59,7 +59,7 @@ export function constructMetadata({
       creator: '@dead8309',
     },
     icons,
-    metadataBase: new URL('https://dead8309.store'),
+    metadataBase: new URL('https://dead8309.shop'),
     ...(noIndex && {
       robots: {
         index: false,
