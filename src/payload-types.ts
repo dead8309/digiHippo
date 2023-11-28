@@ -57,6 +57,7 @@ export interface Product {
 export interface ProductFile {
   id: string;
   user?: (string | null) | User;
+  prefix?: string | null;
   updatedAt: string;
   createdAt: string;
   url?: string | null;
@@ -69,6 +70,7 @@ export interface ProductFile {
 export interface Media {
   id: string;
   user?: (string | null) | User;
+  prefix?: string | null;
   updatedAt: string;
   createdAt: string;
   url?: string | null;
