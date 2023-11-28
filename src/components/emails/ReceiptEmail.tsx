@@ -162,7 +162,7 @@ export const ReceiptEmail = ({
               style={productPriceWrapper}
               align='right'>
               <Text style={productPrice}>
-                {formatPrice(1)}
+                {formatPrice(80)}
               </Text>
             </Column>
           </Section>
