@@ -44,7 +44,7 @@ const Cart = () => {
           {isMounted ? itemCount : <Loader2 className="h-4 w-4 animate-spin"/>}
         </span>
       </SheetTrigger>
-      <SheetContent className="flex w-full flex-col pr-0 sm:max-w-lg">
+      <SheetContent className="flex flex-col pr-0 sm:max-w-lg">
         <SheetHeader className="space-y-2.5 pr-6">
           <SheetTitle>Cart ({itemCount})</SheetTitle>
         </SheetHeader>
