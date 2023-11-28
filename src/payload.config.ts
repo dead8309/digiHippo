@@ -50,7 +50,8 @@ export default buildConfig({
                 },
                 'product_files': {
                     adapter: azureAdapter,
-                    prefix: 'product_files'
+                    prefix: 'product_files',
+                    disablePayloadAccessControl: true
                 }
             }
         })
